@@ -1,0 +1,521 @@
+{
+    "avoir": {
+        "present": ["ai", "as", "a", "avons", "avez", "ont"],
+        "imparfait": ["avais", "avais", "avait", "avions", "aviez", "avaient"],
+        "passe compose": ["eu", "avoir"],
+        "plus-que-parfait": ["eu", "avoir"],
+        "futur simple": ["aurai", "auras", "aura", "aurons", "aurez", "auront"],
+        "conditionnel present": ["aurais", "aurais", "aurait", "aurions", "auriez", "auraient"],
+        "conditionnel passe": ["eu", "avoir"],
+        "imperatif": ["aie", "ayons", "ayez"]
+    },
+    "parler": {
+        "present": ["parle", "parles", "parle", "parlons", "parlez", "parlent"],
+        "imparfait": ["parlais", "parlais", "parlait", "parlions", "parliez", "parlaient"],
+        "passe compose": ["parlé", "avoir"],
+        "plus-que-parfait": ["parlé", "avoir"],
+        "futur simple": ["parlerai", "parleras", "parlera", "parlerons", "parlerez", "parleront"],
+        "conditionnel present": ["parlerais", "parlerais", "parlerait", "parlerions", "parleriez", "parleraient"],
+        "conditionnel passe": ["parlé", "avoir"],
+        "imperatif": ["parle", "parlons", "parlez"]
+    },
+    "aimer": {
+        "present": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
+        "imparfait": ["aimais", "aimais", "aimait", "aimions", "aimiez", "aimaient"],
+        "passe compose": ["aimé", "avoir"],
+        "plus-que-parfait": ["aimé", "avoir"],
+        "futur simple": ["aimerai", "aimeras", "aimera", "aimerons", "aimerez", "aimeront"],
+        "conditionnel present": ["aimerais", "aimerais", "aimerait", "aimerions", "aimeriez", "aimeraient"],
+        "conditionnel passe": ["aimé", "avoir"],
+        "imperatif": ["aime", "aimons", "aimez"]
+    },
+    "nager": {
+        "present": ["nage", "nages", "nage", "nageons", "nagez", "nagent"],
+        "imparfait": ["nageais", "nageais", "nageait", "nagions", "nagiez", "nageaient"],
+        "passe compose": ["nagé", "avoir"],
+        "plus-que-parfait": ["nagé", "avoir"],
+        "futur simple": ["nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront"],
+        "conditionnel present": ["nagerais", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient"],
+        "conditionnel passe": ["nagé", "avoir"],
+        "imperatif": ["nage", "nageons", "nagez"]
+    },
+    "manger": {
+        "present": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
+        "imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
+        "passe compose": ["mangé", "avoir"],
+        "plus-que-parfait": ["mangé", "avoir"],
+        "futur simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
+        "conditionnel present": ["mangerais", "mangerais", "mangerait", "mangerions", "mangeriez", "mangeraient"],
+        "conditionnel passe": ["mangé", "avoir"],
+        "imperatif": ["mange", "mangeons", "mangez"]
+    },
+    "commencer": {
+        "present": ["commence", "commences", "commence", "commençons", "commencez", "commencent"],
+        "imparfait": ["commençais", "commençais", "commençait", "commencions", "commenciez", "commençaient"],
+        "passe compose": ["commencé", "avoir"],
+        "plus-que-parfait": ["commencé", "avoir"],
+        "futur simple": ["commencerai", "commenceras", "commencera", "commencerons", "commencerez", "commenceront"],
+        "conditionnel present": ["commencerais", "commencerais", "commencerait", "commencerions", "commenceriez", "commenceraient"],
+        "conditionnel passe": ["commencé", "avoir"],
+        "imperatif": ["commence", "commençons", "commencez"]
+    },
+    "lancer": {
+        "present": ["lance", "lances", "lance", "lançons", "lancez", "lancent"],
+        "imparfait": ["lançais", "lançais", "lançait", "lancions", "lanciez", "lançaient"],
+        "passe compose": ["lancé", "avoir"],
+        "plus-que-parfait": ["lancé", "avoir"],
+        "futur simple": ["lancerai", "lanceras", "lancera", "lancerons", "lancerez", "lanceront"],
+        "conditionnel present": ["lancerais", "lancerais", "lancerait", "lancerions", "lanceriez", "lanceraient"],
+        "conditionnel passe": ["lancé", "avoir"],
+        "imperatif": ["lance", "lançons", "lancez"]
+    },
+    "placer": {
+        "present": ["place", "places", "place", "plaçons", "placez", "placent"],
+        "imparfait": ["plaçais", "plaçais", "plaçait", "placions", "placiez", "placaient"],
+        "passe compose": ["placé", "avoir"],
+        "plus-que-parfait": ["placé", "avoir"],
+        "futur simple": ["placerai", "placeras", "placera", "placerons", "placerez", "placeront"],
+        "conditionnel present": ["placerais", "placerais", "placerait", "placerions", "placeriez", "placeraient"],
+        "conditionnel passe": ["placé", "avoir"],
+        "imperatif": ["place", "plaçons", "placez"]
+    },
+    "acheter": {
+        "present": ["achète", "achètes", "achète", "achetons", "achetez", "achètent"],
+        "imparfait": ["achetais", "achetais", "achetait", "achetions", "achetiez", "achetaient"],
+        "passe compose": ["acheté", "avoir"],
+        "plus-que-parfait": ["acheté", "avoir"],
+        "futur simple": ["achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront"],
+        "conditionnel present": ["achèterais", "achèterais", "achèterait", "achèterions", "achèteriez", "achèteraient"],
+        "conditionnel passe": ["acheté", "avoir"],
+        "imperatif": ["achète", "achetons", "achetez"]
+    },
+    "lever": {
+        "present": ["lève", "lèves", "lève", "levons", "levez", "lèvent"],
+        "imparfait": ["levais", "levais", "levait", "levions", "leviez", "levaient"],
+        "passe compose": ["levé", "avoir"],
+        "plus-que-parfait": ["levé", "avoir"],
+        "futur simple": ["lèverai", "lèveras", "lèvera", "lèverons", "lèverez", "lèveront"],
+        "conditionnel present": ["lèverais", "lèverais", "lèverait", "lèverions", "lèveriez", "lèveraient"],
+        "conditionnel passe": ["levé", "avoir"],
+        "imperatif": ["lève", "levons", "levez"]
+    },
+    "appeler": {
+        "present": ["appelle", "appelles", "appelle", "appelons", "appelez", "appellent"],
+        "imparfait": ["appelais", "appelais", "appelait", "appelions", "appeliez", "appelaient"],
+        "passe compose": ["appelé", "avoir"],
+        "plus-que-parfait": ["appelé", "avoir"],
+        "futur simple": ["appellerai", "appelleras", "appellera", "appellerons", "appellerez", "appelleront"],
+        "conditionnel present": ["appellerais", "appellerais", "appellerait", "appellerions", "appelleriez", "appelleraient"],
+        "conditionnel passe": ["appelé", "avoir"],
+        "imperatif": ["appelle", "appelons", "appelez"]
+    },
+    "jeter": {
+        "present": ["jette", "jettes", "jette", "jetons", "jetez", "jettent"],
+        "imparfait": ["jetais", "jetais", "jetait", "jetions", "jetiez", "jetaient"],
+        "passe compose": ["jeté", "avoir"],
+        "plus-que-parfait": ["jeté", "avoir"],
+        "futur simple": ["jetterai", "jetteras", "jettera", "jetterons", "jetterez", "jetteront"],
+        "conditionnel present": ["jetterais", "jetterais", "jetterait", "jetterions", "jetteriez", "jetteraient"],
+        "conditionnel passe": ["jeté", "avoir"],
+        "imperatif": ["jette", "jetons", "jetez"]
+    },
+    "répeter": {
+        "present": ["répète", "répètes", "répète", "répétons", "répétez", "répètent"],
+        "imparfait": ["répétais", "répétais", "répétait", "répétions", "répétiez", "répétaient"],
+        "passe compose": ["répété", "avoir"],
+        "plus-que-parfait": ["répété", "avoir"],
+        "futur simple": ["répèterai", "répèteras", "répètera", "répèterons", "répèterez", "répèteront"],
+        "conditionnel present": ["répèterais", "répèterais", "répèterait", "répèterions", "répèteriez", "répèteraient"],
+        "conditionnel passe": ["répété", "avoir"],
+        "imperatif": ["répète", "répétons", "répétez"]
+    },
+    "compléter": {
+        "present": ["complète", "complètes", "complète", "complétons", "complétez", "complètent"],
+        "imparfait": ["complétais", "complétais", "complétait", "complétions", "complétiez", "complétaient"],
+        "passe compose": ["complété", "avoir"],
+        "plus-que-parfait": ["complété", "avoir"],
+        "futur simple": ["complèterai", "complèteras", "complètera", "complèterons", "complèterez", "complèteront"],
+        "conditionnel present": ["complèterais", "complèterais", "complèterait", "complèterions", "complèteriez", "complèteraient"],
+        "conditionnel passe": ["complété", "avoir"],
+        "imperatif": ["complète", "complétons", "complétez"]
+    },
+    "nettoyer": {
+        "present": ["nettoie", "nettoies", "nettoie", "nettoyons", "nettoyez", "nettoient"],
+        "imparfait": ["nettoyais", "nettoyais", "nettoyait", "nettoyions", "nettoyiez", "nettoyaient"],
+        "passe compose": ["nettoyé", "avoir"],
+        "plus-que-parfait": ["nettoyé", "avoir"],
+        "futur simple": ["nettoierai", "nettoieras", "nettoiera", "nettoierons", "nettoierez", "nettoieront"],
+        "conditionnel present": ["nettoierais", "nettoierais", "nettoierait", "nettoierions", "nettoieriez", "nettoieraient"],
+        "conditionnel passe": ["nettoyé", "avoir"],
+        "imperatif": ["nettoie", "nettoyons", "nettoyez"]
+    },
+    "payer": {
+        "present": ["paie", "paies", "paie", "payons", "payez", "paient"],
+        "imparfait": ["payais", "payais", "payait", "payions", "payiez", "payaient"],
+        "passe compose": ["payé", "avoir"],
+        "plus-que-parfait": ["payé", "avoir"],
+        "futur simple": ["paierai", "paieras", "paiera", "paierons", "paierez", "paieront"],
+        "conditionnel present": ["paierais", "paierais", "paierait", "paierions", "paieriez", "paieraient"],
+        "conditionnel passe": ["payé", "avoir"],
+        "imperatif": ["paie", "payons", "payez"]
+    },
+    "essuyer": {
+        "present": ["essuie", "essuies", "essuie", "essuyons", "essuyez", "essuient"],
+        "imparfait": ["essuyais", "essuyais", "essuyait", "essuyions", "essuyiez", "essuyaient"],
+        "passe compose": ["essuyé", "avoir"],
+        "plus-que-parfait": ["essuyé", "avoir"],
+        "futur simple": ["essuierai", "essuieras", "essuiera", "essuierons", "essuierez", "essuieront"],
+        "conditionnel present": ["essuierais", "essuierais", "essuierait", "essuierions", "essuieriez", "essuieraient"],
+        "conditionnel passe": ["essuyé", "avoir"],
+        "imperatif": ["essuie", "essuyons", "essuyez"]
+    },
+    "envoyer": {
+        "present": ["envoie", "envoies", "envoie", "envoyons", "envoyez", "envoient"],
+        "imparfait": ["envoyais", "envoyais", "envoyait", "envoyions", "envoyiez", "envoyaient"],
+        "passe compose": ["envoyé", "avoir"],
+        "plus-que-parfait": ["envoyé", "avoir"],
+        "futur simple": ["enverrai", "enverras", "enverra", "enverrons", "enverrez", "enverront"],
+        "conditionnel present": ["enverrais", "enverrais", "enverrait", "enverrions", "enverriez", "enverraient"],
+        "conditionnel passe": ["envoyé", "avoir"],
+        "imperatif": ["envoie", "envoyons", "envoyez"]
+    },
+    "aller": {
+        "present": ["vais", "vas", "va", "allons", "allez", "vont"],
+        "imparfait": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
+        "passe compose": ["allé", "être"],
+        "plus-que-parfait": ["allé", "être"],
+        "futur simple": ["irai", "iras", "ira", "irons", "irez", "iront"],
+        "conditionnel present": ["irais", "irais", "irait", "irions", "iriez", "iraient"],
+        "conditionnel passe": ["allé", "être"],
+        "imperatif": ["va", "allons", "allez"]
+    },
+    "finir": {
+        "present": ["finis", "finis", "finit", "finissons", "finissez", "finissent"],
+        "imparfait": ["finissais", "finissais", "finissait", "finissions", "finissiez", "finissaient"],
+        "passe compose": ["fini", "avoir"],
+        "plus-que-parfait": ["fini", "avoir"],
+        "futur simple": ["finirai", "finiras", "finira", "finirons", "finirez", "finiront"],
+        "conditionnel present": ["finirais", "finirais", "finirait", "finirions", "finiriez", "finiraient"],
+        "conditionnel passe": ["fini", "avoir"],
+        "imperatif": ["finis", "finissons", "finissez"]
+    },
+    "couvrir": {
+        "present": ["couvre", "couvres", "couvre", "couvrons", "couvrez", "couvrent"],
+        "imparfait": ["couvrais", "couvrais", "couvrait", "couvrions", "couvriez", "couvraient"],
+        "passe compose": ["couvert", "avoir"],
+        "plus-que-parfait": ["couvert", "avoir"],
+        "futur simple": ["couvrirai", "couvriras", "couvrira", "couvrirons", "couvrirez", "couvriront"],
+        "conditionnel present": ["couvrirais", "couvrirais", "couvrirait", "couvririons", "couvririez", "couvriraient"],
+        "conditionnel passe": ["couvert", "avoir"],
+        "imperatif": ["couvre", "couvrons", "couvrez"]
+    },
+    "ouvrir": {
+        "present": ["ouvre", "ouvres", "ouvre", "ouvrons", "ouvrez", "ouvrent"],
+        "imparfait": ["ouvrais", "ouvrais", "ouvrait", "ouvrions", "ouvriez", "ouvraient"],
+        "passe compose": ["ouvert", "avoir"],
+        "plus-que-parfait": ["ouvert", "avoir"],
+        "futur simple": ["ouvrirai", "ouvriras", "ouvrira", "ouvrirons", "ouvrirez", "ouvriront"],
+        "conditionnel present": ["ouvrirais", "ouvrirais", "ouvrirait", "ouvririons", "ouvririez", "ouvriraient"],
+        "conditionnel passe": ["ouvert", "avoir"],
+        "imperatif": ["ouvre", "ouvrons", "ouvrez"]
+    },
+    "offrir": {
+        "present": ["offre", "offres", "offre", "offrons", "offrez", "offrent"],
+        "imparfait": ["offrais", "offrais", "offrait", "offrions", "offriez", "offraient"],
+        "passe compose": ["offert", "avoir"],
+        "plus-que-parfait": ["offert", "avoir"],
+        "futur simple": ["offrirai", "offriras", "offrira", "offrirons", "offrirez", "offriront"],
+        "conditionnel present": ["offrirais", "offrirais", "offrirait", "offririons", "offririez", "offriraient"],
+        "conditionnel passe": ["offert", "avoir"],
+        "imperatif": ["offre", "offrons", "offrez"]
+    },
+    "souffrir": {
+        "present": ["souffre", "souffres", "souffre", "souffrons", "souffrez", "souffrent"],
+        "imparfait": ["souffrais", "souffrais", "souffrait", "souffrions", "souffriez", "souffraient"],
+        "passe compose": ["souffert", "avoir"],
+        "plus-que-parfait": ["souffert", "avoir"],
+        "futur simple": ["souffrirai", "souffriras", "souffrira", "souffrirons", "souffrirez", "souffriront"],
+        "conditionnel present": ["souffrirais", "souffrirais", "souffrirait", "souffririons", "souffririez", "souffriraient"],
+        "conditionnel passe": ["souffert", "avoir"],
+        "imperatif": ["souffre", "souffrons", "souffrez"]
+    },
+    "dormir": {
+        "present": ["dors", "dors", "dort", "dormons", "dormez", "dorment"],
+        "imparfait": ["dormais", "dormais", "dormait", "dormions", "dormiez", "dormaient"],
+        "passe compose": ["dormi", "avoir"],
+        "plus-que-parfait": ["dormi", "avoir"],
+        "futur simple": ["dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront"],
+        "conditionnel present": ["dormirais", "dormirais", "dormirait", "dormirions", "dormiriez", "dormiraient"],
+        "conditionnel passe": ["dormi", "avoir"],
+        "imperatif": ["dors", "dormons", "dormez"]
+    },
+    "mentir": {
+        "present": ["mens", "mens", "ment", "mentons", "mentez", "mentent"],
+        "imparfait": ["mentais", "mentais", "mentait", "mentions", "mentiez", "mentaient"],
+        "passe compose": ["menti", "avoir"],
+        "plus-que-parfait": ["menti", "avoir"],
+        "futur simple": ["mentirai", "mentiras", "mentira", "mentirons", "mentirez", "mentiront"],
+        "conditionnel present": ["mentirais", "mentirais", "mentirait", "mentirions", "mentiriez", "mentiraient"],
+        "conditionnel passe": ["menti", "avoir"],
+        "imperatif": ["mens", "mentons", "mentez"]
+    },
+    "sortir": {
+        "present": ["sors", "sors", "sort", "sortons", "sortez", "sortent"],
+        "imparfait": ["sortais", "sortais", "sortait", "sortions", "sortiez", "sortaient"],
+        "passe compose": ["sorti", "avoir"],
+        "plus-que-parfait": ["sorti", "avoir"],
+        "futur simple": ["sortirai", "sortiras", "sortira", "sortirons", "sortirez", "sortiront"],
+        "conditionnel present": ["sortirais", "sortirais", "sortirait", "sortirions", "sortiriez", "sortiraient"],
+        "conditionnel passe": ["sorti", "avoir"],
+        "imperatif": ["sors", "sortons", "sortez"]
+    },
+    "servir": {
+        "present": ["sers", "sers", "sert", "servons", "servez", "servent"],
+        "imparfait": ["servais", "servais", "servait", "servions", "serviez", "servaient"],
+        "passe compose": ["servi", "avoir"],
+        "plus-que-parfait": ["servi", "avoir"],
+        "futur simple": ["servirai", "serviras", "servira", "servirons", "servirez", "serviront"],
+        "conditionnel present": ["servirais", "servirais", "servirait", "servirions", "serviriez", "serviraient"],
+        "conditionnel passe": ["servi", "avoir"],
+        "imperatif": ["sers", "servons", "servez"]
+    },
+    "partir": {
+        "present": ["pars", "pars", "part", "partons", "partez", "partent"],
+        "imparfait": ["partais", "partais", "partait", "partions", "partiez", "partaient"],
+        "passe compose": ["parti", "avoir"],
+        "plus-que-parfait": ["parti", "avoir"],
+        "futur simple": ["partirai", "partiras", "partira", "partirons", "partirez", "partiront"],
+        "conditionnel present": ["partirais", "partirais", "partirait", "partirions", "partiriez", "partiraient"],
+        "conditionnel passe": ["parti", "avoir"],
+        "imperatif": ["pars", "partons", "partez"]
+    },
+    "courir": {
+        "present": ["cours", "cours", "court", "courons", "courez", "courent"],
+        "imparfait": ["courais", "courais", "courait", "courions", "couriez", "couraient"],
+        "passe compose": ["couru", "avoir"],
+        "plus-que-parfait": ["couru", "avoir"],
+        "futur simple": ["courrai", "courras", "courra", "courrons", "courrez", "courront"],
+        "conditionnel present": ["courrais", "courrais", "courrait", "courrions", "courriez", "courraient"],
+        "conditionnel passe": ["couru", "avoir"],
+        "imperatif": ["cours", "courons", "courez"]
+    },
+    "mourir": {
+        "present": ["meurs", "meurs", "meurt", "mourons", "mourez", "meurent"],
+        "imparfait": ["mourais", "mourais", "mourait", "mourions", "mouriez", "mouraient"],
+        "passe compose": ["mort", "être"],
+        "plus-que-parfait": ["mort", "être"],
+        "futur simple": ["mourrai", "mourras", "mourra", "mourrons", "mourrez", "mourront"],
+        "conditionnel present": ["mourrais", "mourrais", "mourrait", "mourrions", "mourriez", "mourraient"],
+        "conditionnel passe": ["mort", "être"],
+        "imperatif": ["meurs", "mourons", "mourez"]
+    },
+    "venir": {
+        "present": ["viens", "viens", "vient", "venons", "venez", "viennent"],
+        "imparfait": ["venais", "venais", "venait", "venions", "veniez", "venaient"],
+        "passe compose": ["venu", "être"],
+        "plus-que-parfait": ["venu", "être"],
+        "futur simple": ["viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront"],
+        "conditionnel present": ["viendrais", "viendrais", "viendrait", "viendrions", "viendriez", "viendraient"],
+        "conditionnel passe": ["venu", "être"],
+        "imperatif": ["viens", "venons", "venez"]
+    },
+    "tenir": {
+        "present": ["tiens", "tiens", "tient", "tenons", "tenez", "tiennent"],
+        "imparfait": ["tenais", "tenais", "tenait", "tenions", "teniez", "tenaient"],
+        "passe compose": ["tenu", "avoir"],
+        "plus-que-parfait": ["tenu", "avoir"],
+        "futur simple": ["tiendrai", "tiendras", "tiendra", "tiendrons", "tiendrez", "tiendront"],
+        "conditionnel present": ["tiendrais", "tiendrais", "tiendrait", "tiendrions", "tiendriez", "tiendraient"],
+        "conditionnel passe": ["tenu", "avoir"],
+        "imperatif": ["tiens", "tenons", "tenez"]
+    },
+    "fuir": {
+        "present": ["fuis", "fuis", "fuit", "fuyons", "fuyez", "fuient"],
+        "imparfait": ["fuyais", "fuyais", "fuyait", "fuyions", "fuyiez", "fuyaient"],
+        "passe compose": ["fui", "avoir"],
+        "plus-que-parfait": ["fui", "avoir"],
+        "futur simple": ["fuirai", "fuiras", "fuira", "fuirons", "fuirez", "fuiront"],
+        "conditionnel present": ["fuirais", "fuirais", "fuirait", "fuirions", "fuiriez", "fuiraient"],
+        "conditionnel passe": ["fui", "avoir"],
+        "imperatif": ["fuis", "fuyons", "fuyez"]
+    },
+    "attendre": {
+        "present": ["attends", "attends", "attend", "attendons", "attendez", "attendent"],
+        "imparfait": ["attendais", "attendais", "attendait", "attendions", "attendiez", "attendaient"],
+        "passe compose": ["attendu", "avoir"],
+        "plus-que-parfait": ["attendu", "avoir"],
+        "futur simple": ["attendrai", "attendras", "attendra", "attendrons", "attendrez", "attendront"],
+        "conditionnel present": ["attendrais", "attendrais", "attendrait", "attendrions", "attendriez", "attendraient"],
+        "conditionnel passe": ["attendu", "avoir"],
+        "imperatif": ["attends", "attendons", "attendez"]
+    },
+    "conduire": {
+        "present": ["conduis", "conduis", "conduit", "conduisons", "conduisez", "conduisent"],
+        "imparfait": ["conduisais", "conduisais", "conduisait", "conduisions", "conduisiez", "conduisaient"],
+        "passe compose": ["conduit", "avoir"],
+        "plus-que-parfait": ["conduit", "avoir"],
+        "futur simple": ["conduirai", "conduiras", "conduira", "conduirons", "conduirez", "conduiront"],
+        "conditionnel present": ["conduirais", "conduirais", "conduirait", "conduirions", "conduiriez", "conduiraient"],
+        "conditionnel passe": ["conduit", "avoir"],
+        "imperatif": ["conduis", "conduisons", "conduisez"]
+    },
+    "construire": {
+        "present": ["construis", "construis", "construit", "construisons", "construisez", "construisent"],
+        "imparfait": ["construisais", "construisais", "construisait", "construisions", "construisiez", "construisaient"],
+        "passe compose": ["construit", "avoir"],
+        "plus-que-parfait": ["construit", "avoir"],
+        "futur simple": ["construirai", "construiras", "construira", "construirons", "construirez", "construiront"],
+        "conditionnel present": ["construirais", "construirais", "construirait", "construirions", "construiriez", "construiraient"],
+        "conditionnel passe": ["construit", "avoir"],
+        "imperatif": ["construis", "construisons", "construisez"]
+    },
+    "traduire": {
+        "present": ["traduis", "traduis", "traduit", "traduisons", "traduisez", "traduisent"],
+        "imparfait": ["traduisais", "traduisais", "traduisait", "traduisions", "traduisiez", "traduisaient"],
+        "passe compose": ["traduit", "avoir"],
+        "plus-que-parfait": ["traduit", "avoir"],
+        "futur simple": ["traduirai", "traduiras", "traduira", "traduirons", "traduirez", "traduiront"],
+        "conditionnel present": ["traduirais", "traduirais", "traduirait", "traduirions", "traduiriez", "traduiraient"],
+        "conditionnel passe": ["traduit", "avoir"],
+        "imperatif": ["traduis", "traduisons", "traduisez"]
+    },
+    "pleindre": {
+        "present": ["pleins", "pleins", "pleint", "pleignons", "pleignez", "pleignent"],
+        "imparfait": ["pleignais", "pleignais", "pleignait", "pleignions", "pleigniez", "pleignaient"],
+        "passe compose": ["pleint", "avoir"],
+        "plus-que-parfait": ["pleint", "avoir"],
+        "futur simple": ["pleindrai", "pleindras", "pleindra", "pleindrons", "pleindrez", "pleindront"],
+        "conditionnel present": ["pleindrais", "pleindrais", "pleindrait", "pleindrions", "pleindriez", "pleindraient"],
+        "conditionnel passe": ["pleint", "avoir"],
+        "imperatif": ["pleins", "pleignons", "pleignez"]
+    },
+    "craindre": {
+        "present": ["crains", "crains", "craint", "craignons", "craignez", "craignent"],
+        "imparfait": ["craignais", "craignais", "craignait", "craignions", "craigniez", "craignaient"],
+        "passe compose": ["craint", "avoir"],
+        "plus-que-parfait": ["craint", "avoir"],
+        "futur simple": ["craindrai", "craindras", "craindra", "craindrons", "craindrez", "craindront"],
+        "conditionnel present": ["craindrais", "craindrais", "craindrait", "craindrions", "craindriez", "craindraient"],
+        "conditionnel passe": ["craint", "avoir"],
+        "imperatif": ["crains", "craignons", "craignez"]
+    },
+    "connaître": {
+        "present": ["connais", "connais", "connaît", "connaissons", "connaissez", "connaissent"],
+        "imparfait": ["connaissais", "connaissais", "connaissait", "connaissions", "connaissiez", "connaissaient"],
+        "passe compose": ["connu", "avoir"],
+        "plus-que-parfait": ["connu", "avoir"],
+        "futur simple": ["connaîtrai", "connaîtras", "connaîtra", "connaîtrons", "connaîtrez", "connaîtront"],
+        "conditionnel present": ["connaîtrais", "connaîtrais", "connaîtrait", "connaîtrions", "connaîtriez", "connaîtraient"],
+        "conditionnel passe": ["connu", "avoir"],
+        "imperatif": ["connais", "connaissons", "connaissez"]
+    },
+    "naître": {
+        "present": ["nais", "nais", "naît", "naissons", "naissez", "naissent"],
+        "imparfait": ["naissais", "naissais", "naissait", "naissions", "naissiez", "naissaient"],
+        "passe compose": ["né", "être"],
+        "plus-que-parfait": ["né", "être"],
+        "futur simple": ["naîtrai", "naîtras", "naîtra", "naîtrons", "naîtrez", "naîtront"],
+        "conditionnel present": ["naîtrais", "naîtrais", "naîtrait", "naîtrions", "naîtriez", "naîtraient"],
+        "conditionnel passe": ["né", "être"],
+        "imperatif": ["nais", "naissons", "naissez"]
+    },    "bettre": {
+        "present": ["bets", "bets", "bet", "bettons", "bettez", "bettent"],
+        "imparfait": ["bettais", "bettais", "bettait", "bettions", "bettiez", "bettaient"],
+        "passe compose": ["bettu", "avoir"],
+        "plus-que-parfait": ["bettu", "avoir"],
+        "futur simple": ["bettrai", "bettras", "bettr", "bettons", "bettez", "bettent"],
+        "conditionnel present": ["bettrais", "bettrais", "bettrait", "bettrions", "bettriez", "bettraient"],
+        "conditionnel passe": ["bettu", "avoir"],
+        "imperatif": ["bets", "bettons", "bettez"]
+    },
+    "boire": {
+        "present": ["bois", "bois", "boit", "buvons", "buvez", "boivent"],
+        "imparfait": ["buvais", "buvais", "buvait", "buvions", "buviez", "buvaient"],
+        "passe compose": ["bu", "avoir"],
+        "plus-que-parfait": ["bu", "avoir"],
+        "futur simple": ["boirai", "boiras", "boira", "boirons", "boirez", "boiront"],
+        "conditionnel present": ["boirais", "boirais", "boirait", "boirions", "boiriez", "boiraient"],
+        "conditionnel passe": ["bu", "avoir"],
+        "imperatif": ["bois", "buvons", "buvez"]
+    },
+    "croire": {
+        "present": ["crois", "crois", "croit", "croyons", "croyez", "croient"],
+        "imparfait": ["croyais", "croyais", "croyait", "croyions", "croyiez", "croyaient"],
+        "passe compose": ["cru", "avoir"],
+        "plus-que-parfait": ["cru", "avoir"],
+        "futur simple": ["croirai", "croiras", "croira", "croirons", "croirez", "croiront"],
+        "conditionnel present": ["croirais", "croirais", "croirait", "croirions", "croiriez", "croiraient"],
+        "conditionnel passe": ["cru", "avoir"],
+        "imperatif": ["crois", "croyons", "croyez"]
+    },
+    "dire": {
+        "present": ["dis", "dis", "dit", "disons", "dites", "disent"],
+        "imparfait": ["disais", "disais", "disait", "disions", "disiez", "disaient"],
+        "passe compose": ["dit", "avoir"],
+        "plus-que-parfait": ["dit", "avoir"],
+        "futur simple": ["dirai", "diras", "dira", "dirons", "direz", "diront"],
+        "conditionnel present": ["dirais", "dirais", "dirait", "dirions", "diriez", "diraient"],
+        "conditionnel passe": ["dit", "avoir"],
+        "imperatif": ["dis", "disons", "dites"]
+    },
+    "écrire": {
+        "present": ["écris", "écris", "écrit", "écrivons", "écrivez", "écrivent"],
+        "imparfait": ["écrivais", "écrivais", "écrivait", "écrivions", "écriviez", "écrivaient"],
+        "passe compose": ["écrit", "avoir"],
+        "plus-que-parfait": ["écrit", "avoir"],
+        "futur simple": ["écrirai", "écriras", "écrira", "écrirons", "écrirez", "écriront"],
+        "conditionnel present": ["écrirais", "écrirais", "écrirait", "écririons", "écririez", "écriraient"],
+        "conditionnel passe": ["écrit", "avoir"],
+        "imperatif": ["écris", "écrivons", "écrivez"]
+    },
+    "être": {
+        "present": ["suis", "es", "est", "sommes", "êtes", "sont"],
+        "imparfait": ["étais", "étais", "était", "étions", "étiez", "étaient"],
+        "passe compose": ["été", "avoir"],
+        "plus-que-parfait": ["été", "avoir"],
+        "futur simple": ["serai", "seras", "sera", "serons", "serez", "seront"],
+        "conditionnel present": ["serais", "serais", "serait", "serions", "seriez", "seraient"],
+        "conditionnel passe": ["été", "avoir"],
+        "imperatif": ["sois", "soyons", "soyez"]
+    },
+    "faire": {
+        "present": ["fais", "fais", "fait", "faisons", "faites", "font"],
+        "imparfait": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"],
+        "passe compose": ["fait", "avoir"],
+        "plus-que-parfait": ["fait", "avoir"],
+        "futur simple": ["ferai", "feras", "fera", "ferons", "ferez", "feront"],
+        "conditionnel present": ["ferais", "ferais", "ferait", "ferions", "feriez", "feraient"],
+        "conditionnel passe": ["fait", "avoir"],
+        "imperatif": ["fais", "faisons", "faites"]
+    },
+    "lire": {
+        "present": ["lis", "lis", "lit", "lisons", "lisez", "lisent"],
+        "imparfait": ["lisais", "lisais", "lisait", "lisions", "lisiez", "lisaient"],
+        "passe compose": ["lu", "avoir"],
+        "plus-que-parfait": ["lu", "avoir"],
+        "futur simple": ["lirai", "liras", "lira", "lirons", "lirez", "liront"],
+        "conditionnel present": ["lirais", "lirais", "lirait", "lirions", "liriez", "liraient"],
+        "conditionnel passe": ["lu", "avoir"],
+        "imperatif": ["lis", "lisons", "lisez"]
+    },
+    "plaire": {
+        "present": ["plais", "plais", "plaît", "plaisons", "plaisez", "plaisent"],
+        "imparfait": ["plaisais", "plaisais", "plaisait", "plaisions", "plaisiez", "plaisaient"],
+        "passe compose": ["plu", "avoir"],
+        "plus-que-parfait": ["plu", "avoir"],
+        "futur simple": ["plairai", "plairas", "plaira", "plairons", "plairez", "plairont"],
+        "conditionnel present": ["plairais", "plairais", "plairait", "plairions", "plairiez", "plairaient"],
+        "conditionnel passe": ["plu", "avoir"],
+        "imperatif": ["plais", "plaisons", "plaisez"]
+    },
+    "mettre": {
+        "present": ["mets", "mets", "met", "mettons", "mettez", "mettent"],
+        "imparfait": ["mettais", "mettais", "mettait", "mettions", "mettiez", "mettaient"],
+        "passe compose": ["mis", "avoir"],
+        "plus-que-parfait": ["mis", "avoir"],
+        "futur simple": ["mettrai", "mettras", "mettra", "mettrons", "mettrez", "mettront"],
+        "conditionnel present": ["mettrais", "mettrais", "mettrait", "mettrions", "mettriez", "mettraient"],
+        "conditionnel passe": ["mis", "avoir"],
+        "imperatif": ["mets", "mettons", "mettez"]
+    }
+}
