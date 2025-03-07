@@ -4,7 +4,7 @@ import json
 from random import randint, choice
 
 start_text = "Französisch verben"
-with open("FrenchVerbes/verbs.json", "r") as f:
+with open("verbs.json", "r") as f:
     verbs = json.load(f)
 keys = list(verbs.keys())
 answer = ""
@@ -41,11 +41,11 @@ def generate_verb(_=""):
         person = choice([1, 3, 4])
         answer = verb_con[tense][person]
     elif tense == "plus-que-parfait":
-        answer = f"{verbs[verbs[verb_inf][tense][1]]["imparfait"][person]} {verbs[verb_inf][tense][0]}"
+        answer = f"{verbs[verbs[verb_inf][tense][1]]['imparfait'][person]} {verbs[verb_inf][tense][0]}"
     elif tense == "conditionnel passe":
-        answer = f"{verbs[verbs[verb_inf][tense][1]]["conditionnel present"][person]} {verbs[verb_inf][tense][0]}"
+        answer = f"{verbs[verbs[verb_inf][tense][1]]['conditionnel present'][person]} {verbs[verb_inf][tense][0]}"
     elif tense == "passe compose":
-        answer = f"{verbs[verbs[verb_inf][tense][1]]["present"][person]} {verbs[verb_inf][tense][0]}"
+        answer = f"{verbs[verbs[verb_inf][tense][1]]['present'][person]} {verbs[verb_inf][tense][0]}"
     #print(f"and the PERSON is: {person+1}\n\n")
 
     #Question on Screen
