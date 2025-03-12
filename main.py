@@ -8,13 +8,14 @@ with open("verbs.json", "r") as f:
     verbs = json.load(f)
 keys = list(verbs.keys())
 answer = ""
+verbrange = [17, -1]
 
 def check_verb(_=""):
     if label.cget("text")!=start_text:
         if entry.get() == answer:
             answer_label.config(text=f"Right answer :)")
         else:
-            answer_label.config(text=f"wrong answer ({answer})")
+            answer_label.config(text=f"Wrong answer ({answer})")
         if entry.get() != "":
             entry.delete(0, tk.END)
         generate_verb()
